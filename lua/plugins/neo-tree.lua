@@ -15,7 +15,7 @@ return {
           visible = true,  -- Show hidden files
           hide_dotfiles = false,  -- Render hidden files as 'dimmed out'
           hide_gitignored = true,  -- Hide files ignored by Git
-          hide_by_name = { '.git' }  -- Exclude listed directories
+          never_show = { '.git' }  -- Exclude listed directories
         },
       },
     }
